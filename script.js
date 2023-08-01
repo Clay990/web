@@ -3,7 +3,7 @@ function sendMessage() {
   const username = document.querySelector("input[name='username']").value;
   const avatar_url = document.querySelector("input[name='avatar_url']").value;
 
-  const webhookUrl = "https://discord.com/api/webhooks/1134870445120823428/${secret.webhook}";
+  const webhookUrl = "https://discord.com/api/webhooks/1134870445120823428/${secret}";
 
   const params = {
     username,
