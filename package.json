@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "node-fetch": "github:node-fetch/node-fetch"
+  }
+}
